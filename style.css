@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Titillium+Web:wght@700&display=swap');
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+h1 {
+	text-align: center;
+}
+
+table {
+	table-layout: fixed;
+	border-collapse: collapse;
+
+}
+
+table,th,td {
+	width: 100%;
+	border: 3px solid red;
+}
+
+tr {
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	font-size: 20px;
+}
+
+tr:hover {
+	background-color: orange;
+}
+
+thead th:nth-child(1) {
+	width: 20px;
+}
+
+thead th:nth-child(2) {
+	width: 50px;
+}
+
+thead th:nth-child(3) {
+	width: 40px;
+}
+
+body {
+	background-image: url("https://img.huffingtonpost.com/asset/5d024d152100009518ef6a6e.jpeg?ops=scalefit_720_noupscale&format=webp");
+
+}
+/*
+.one{
+	width: 50%;
+}
+
+.two
+*/
