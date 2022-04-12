@@ -27,9 +27,20 @@ tr {
 	font-size: 20px;
 }
 
+
 tr:hover {
 	background-color: orange;
 }
+
+th:hover {
+	background-color: orange;
+}
+
+
+tr:hover:nth-child(odd) {
+	background-color: #0dde4c;
+}
+
 
 thead th:nth-child(1) {
 	width: 20px;
@@ -45,6 +56,7 @@ thead th:nth-child(3) {
 
 body {
 	background-image: url("https://img.huffingtonpost.com/asset/5d024d152100009518ef6a6e.jpeg?ops=scalefit_720_noupscale&format=webp");
+	background-repeat: repeat-x;
 
 }
 /*
